@@ -1,0 +1,802 @@
+fileFormatVersion: 2
+guid: eaa06d374a5872041b4a1a3ca42b8b36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6681599363463882829
+    second: Injured_Walk_1
+  - first:
+      213: -502753723044116413
+    second: Injured_Walk_0
+  - first:
+      213: 24430864520033644
+    second: Injured_Idle_0
+  - first:
+      213: 6101861034278763503
+    second: Suit_Idle_0
+  - first:
+      213: 1253111034339343042
+    second: PistolAim_60angle_0
+  - first:
+      213: -2897738039812366454
+    second: Suit_Idle_1
+  - first:
+      213: -3428670985408567076
+    second: fixed_1
+  - first:
+      213: 6311220794548410666
+    second: Suit_Walk_0
+  - first:
+      213: 92108622300243326
+    second: Suit_Walk_1
+  - first:
+      213: 8186372165964031805
+    second: Suit_Run_0
+  - first:
+      213: -4790424239756100827
+    second: Suit_Run_1
+  - first:
+      213: 3455053508009854822
+    second: Suit_PistolAim_0
+  - first:
+      213: 1727906933494465867
+    second: Suit_Float_0
+  - first:
+      213: 3455053508009854822
+    second: PistolAim_Arm_0
+  - first:
+      213: 3163661306894813572
+    second: PistolAim_Body_0
+  - first:
+      213: -3389508446087422101
+    second: MachinegunAim_Front_0
+  - first:
+      213: -594255194286249619
+    second: MachinegunAim_Arm_0
+  - first:
+      213: -3807617972430408585
+    second: MachinegunAim_Body_0
+  - first:
+      213: -8738530727643610517
+    second: Bloody_0
+  - first:
+      213: 5368907606079124794
+    second: Bloody_1
+  - first:
+      213: 7768796469249087514
+    second: fixed_3
+  - first:
+      213: 8399460948093964541
+    second: PistolAim_Front_0
+  - first:
+      213: 3098029548555294008
+    second: PistolAim_60angle_0
+  - first:
+      213: 3098029548555294008
+    second: PistolAim_60angle_0
+  - first:
+      213: 7929895491367474538
+    second: PistolAim_40angle_0
+  - first:
+      213: 3948830536497692555
+    second: PistolAim_60angle_0
+  - first:
+      213: 3948830536497692555
+    second: fixed_2
+  - first:
+      213: 1253111034339343042
+    second: PistolAim_60angle_0
+  - first:
+      213: 1253111034339343042
+    second: PistolAim_60angle_0
+  - first:
+      213: 3098029548555294008
+    second: PistolAim_20angle_0
+  - first:
+      213: -8051073928689340410
+    second: PistolAim_Sub20angle_0
+  - first:
+      213: 6458592744005178766
+    second: PistolAim_Sub30angle_0
+  - first:
+      213: 8895784096521121362
+    second: Flinch_0
+  - first:
+      213: -5960110722564460172
+    second: Flinch_1
+  - first:
+      213: -3834521011022344215
+    second: Flinch_2
+  - first:
+      213: -7793047188477827034
+    second: Climb_0
+  - first:
+      213: -4603683709392447108
+    second: Climb_1
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Injured_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 411
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7524197c03643a0800000000000000
+      internalID: -6681599363463882829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 411
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3484370172cd509f0800000000000000
+      internalID: -502753723044116413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Injured_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 411
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65b549edbbc65000800000000000000
+      internalID: 24430864520033644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 370
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febbbf8184a2ea450800000000000000
+      internalID: 6101861034278763503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 370
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fd8dc0b9a29c7d0800000000000000
+      internalID: -2897738039812366454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 329
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29dd16dfd5f59750800000000000000
+      internalID: 6311220794548410666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 329
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75e4f0dd4c374100800000000000000
+      internalID: 92108622300243326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit_Run_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d376e679c16db9170800000000000000
+      internalID: 8186372165964031805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit_Run_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 288
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bbae1e88ef48db0800000000000000
+      internalID: -4790424239756100827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolAim_Arm_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 206
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66705e02cd0d2ff20800000000000000
+      internalID: 3455053508009854822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suit_Float_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 247
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b454fdf7332caf710800000000000000
+      internalID: 1727906933494465867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolAim_Body_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 206
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4890d13623597eb20800000000000000
+      internalID: 3163661306894813572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MachinegunAim_Front_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 165
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fd5c3d60c06f0d0800000000000000
+      internalID: -3389508446087422101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MachinegunAim_Arm_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 165
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6923ae9c08c0c7f0800000000000000
+      internalID: -594255194286249619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MachinegunAim_Body_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 165
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77474e0b0af982bc0800000000000000
+      internalID: -3807617972430408585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 132
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6287f71a908ab680800000000000000
+      internalID: -8738530727643610517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bloody_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 132
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a353d34a501328a40800000000000000
+      internalID: 5368907606079124794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolAim_Front_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 206
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df018e3ea31e09470800000000000000
+      internalID: 8399460948093964541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolAim_40angle_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 83
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a651eec5fe5ac0e60800000000000000
+      internalID: 7929895491367474538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolAim_60angle_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 83
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca3be1b8d1f36110800000000000000
+      internalID: 1253111034339343042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolAim_20angle_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 83
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8355d49d5796efa20800000000000000
+      internalID: 3098029548555294008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolAim_Sub20angle_0
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 83
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60030141be6d44090800000000000000
+      internalID: -8051073928689340410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PistolAim_Sub30angle_0
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 83
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85185fa1e781a950800000000000000
+      internalID: 6458592744005178766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flinch_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 42
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ee5bff08c247b70800000000000000
+      internalID: 8895784096521121362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flinch_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 42
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4717c8730ee694da0800000000000000
+      internalID: -5960110722564460172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flinch_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 42
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efcd36e47b09cac0800000000000000
+      internalID: -3834521011022344215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6282ce41fd889d390800000000000000
+      internalID: -7793047188477827034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c791963ce0e6c10c0800000000000000
+      internalID: -4603683709392447108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
