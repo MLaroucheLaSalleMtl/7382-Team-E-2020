@@ -1,46 +1,43 @@
 fileFormatVersion: 2
-guid: 975962e5a1df44d4a80a73db285f12b2
+guid: 69bb895c5f7e71d47ac578b9481409e8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6351617318852302439
-    second: conditionWindow
+      213: -5009461801657270473
+    second: Debris
   - first:
-      213: -4545803062108758440
-    second: textBallonA_0
+      213: 1249967988623777620
+    second: BlueKey
   - first:
-      213: -4694747392420873466
-    second: textBallonA_1
+      213: 3609051809477561678
+    second: GreenKey
   - first:
-      213: -1079450522084875496
-    second: textBallonB_0
+      213: -4161370166444349312
+    second: HangedMachineGun
   - first:
-      213: -2365660400964949050
-    second: textBallonB_1
+      213: 1351588412684844777
+    second: BlueKeyHL
   - first:
-      213: -7580491385263510301
-    second: popup_0
+      213: -5455065873037733236
+    second: GreenKeyHL
   - first:
-      213: -3792289754353098239
-    second: PasswordWindow_0
+      213: -70093094618921413
+    second: HangeMachineGunHL
   - first:
-      213: 3451379794384583358
-    second: PasswordWindow_1
+      213: -6037591022449680899
+    second: textLog
   - first:
-      213: 3841941978665517715
-    second: PasswordWindow_2
+      213: 1723481627716898543
+    second: textLogHL
   - first:
-      213: -743735226849810980
-    second: PasswordWindow_3
+      213: -8610587324594170738
+    second: ChoiSummary
   - first:
-      213: 8112920000645087784
-    second: PasswordWindow_4
+      213: 3121438698103093221
+    second: AaronSummary
   - first:
-      213: -5516427492504677651
-    second: Monitor_0
-  - first:
-      213: -3389334748667634912
-    second: Monitor_1
+      213: -354147931291634235
+    second: JoeySummary
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -149,13 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: conditionWindow
+      name: Debris
       rect:
         serializedVersion: 2
-        x: 1
-        y: 242
-        width: 80
-        height: 66
+        x: 0
+        y: 125
+        width: 111
+        height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 999e69863b58ad7a0800000000000000
-      internalID: -6351617318852302439
+      spriteID: 73f745c5801da7ab0800000000000000
+      internalID: -5009461801657270473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: textBallonA_0
+      name: BlueKey
       rect:
         serializedVersion: 2
-        x: 1
-        y: 196
-        width: 146
-        height: 43
+        x: 112
+        y: 140
+        width: 5
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85edf1023301ae0c0800000000000000
-      internalID: -4545803062108758440
+      spriteID: 45f97865347c85110800000000000000
+      internalID: 1249967988623777620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: textBallonA_1
+      name: GreenKey
       rect:
         serializedVersion: 2
-        x: 148
-        y: 196
-        width: 146
-        height: 43
+        x: 118
+        y: 140
+        width: 5
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60bff84de18e8deb0800000000000000
-      internalID: -4694747392420873466
+      spriteID: e4d04e7cf7de51230800000000000000
+      internalID: 3609051809477561678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: textBallonB_0
+      name: HangedMachineGun
       rect:
         serializedVersion: 2
-        x: 1
-        y: 152
-        width: 146
-        height: 43
+        x: 124
+        y: 125
+        width: 13
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 813658628750501f0800000000000000
-      internalID: -1079450522084875496
+      spriteID: 0882d2aa1e7df36c0800000000000000
+      internalID: -4161370166444349312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: textBallonB_1
+      name: BlueKeyHL
       rect:
         serializedVersion: 2
-        x: 148
-        y: 152
-        width: 146
-        height: 43
+        x: 170
+        y: 139
+        width: 7
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cba64d266c7b2fd0800000000000000
-      internalID: -2365660400964949050
+      spriteID: 9ee3d94108ec1c210800000000000000
+      internalID: 1351588412684844777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PasswordWindow_0
+      name: GreenKeyHL
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 146
-        height: 146
+        x: 178
+        y: 139
+        width: 7
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1022e629f841f5bc0800000000000000
-      internalID: -3792289754353098239
+      spriteID: c82da3b9d76bb44b0800000000000000
+      internalID: -5455065873037733236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PasswordWindow_1
+      name: HangeMachineGunHL
       rect:
         serializedVersion: 2
-        x: 148
-        y: 1
-        width: 146
-        height: 146
+        x: 186
+        y: 125
+        width: 15
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,20 +286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebaf04503a3c5ef20800000000000000
-      internalID: 3451379794384583358
+      spriteID: b36080aa3baf60ff0800000000000000
+      internalID: -70093094618921413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PasswordWindow_2
+      name: textLog
       rect:
         serializedVersion: 2
-        x: 295
-        y: 1
-        width: 146
-        height: 146
+        x: 203
+        y: 126
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3920506cfd1515530800000000000000
-      internalID: 3841941978665517715
+      spriteID: dfd9ccf14fa263ca0800000000000000
+      internalID: -6037591022449680899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PasswordWindow_3
+      name: textLogHL
       rect:
         serializedVersion: 2
-        x: 442
-        y: 1
-        width: 146
-        height: 146
+        x: 241
+        y: 125
+        width: 18
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd52cac60c8bda5f0800000000000000
-      internalID: -743735226849810980
+      spriteID: fee4af4b8690be710800000000000000
+      internalID: 1723481627716898543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PasswordWindow_4
+      name: ChoiSummary
       rect:
         serializedVersion: 2
-        x: 589
-        y: 1
-        width: 146
-        height: 146
+        x: 0
+        y: 0
+        width: 84
+        height: 109
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 822cc99a1c1e69070800000000000000
-      internalID: 8112920000645087784
+      spriteID: e84551af27c018880800000000000000
+      internalID: -8610587324594170738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monitor_0
+      name: AaronSummary
       rect:
         serializedVersion: 2
-        x: 386
-        y: 151
-        width: 174
-        height: 174
+        x: 85
+        y: 0
+        width: 84
+        height: 109
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,29 +370,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de25f004c66b173b0800000000000000
-      internalID: -5516427492504677651
+      spriteID: 5e7b79435f3915b20800000000000000
+      internalID: 3121438698103093221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monitor_1
+      name: JoeySummary
       rect:
         serializedVersion: 2
-        x: 561
-        y: 151
-        width: 174
-        height: 174
+        x: 170
+        y: 0
+        width: 84
+        height: 109
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02b17c8e00aa6f0d0800000000000000
-      internalID: -3389334748667634912
+      spriteID: 5c53c653550d51bf0800000000000000
+      internalID: -354147931291634235
       vertices: []
       indices: 
       edges: []

@@ -1,46 +1,46 @@
 fileFormatVersion: 2
-guid: 975962e5a1df44d4a80a73db285f12b2
+guid: 73ca068d86e3d3e4cacaf4e61476436d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6351617318852302439
-    second: conditionWindow
+      213: 7687303470282753530
+    second: Pistol_charge_3
   - first:
-      213: -4545803062108758440
-    second: textBallonA_0
+      213: -5663100721642874038
+    second: Pistol_charge_2
   - first:
-      213: -4694747392420873466
-    second: textBallonA_1
+      213: -8480274252792306875
+    second: Pistol_charge_1
   - first:
-      213: -1079450522084875496
-    second: textBallonB_0
+      213: 7019231892489786006
+    second: Pistol_charge_0
   - first:
-      213: -2365660400964949050
-    second: textBallonB_1
+      213: -1717665520284004740
+    second: MachineGun_Charge_8
   - first:
-      213: -7580491385263510301
-    second: popup_0
+      213: 1676426464848058777
+    second: MachineGun_Charge_7
   - first:
-      213: -3792289754353098239
-    second: PasswordWindow_0
+      213: -7327960097343689268
+    second: MachineGun_Charge_6
   - first:
-      213: 3451379794384583358
-    second: PasswordWindow_1
+      213: -1240988546142105879
+    second: MachineGun_Charge_5
   - first:
-      213: 3841941978665517715
-    second: PasswordWindow_2
+      213: 2645965234850956188
+    second: MachineGun_Charge_4
   - first:
-      213: -743735226849810980
-    second: PasswordWindow_3
+      213: -6446903681761924048
+    second: MachineGun_Charge_3
   - first:
-      213: 8112920000645087784
-    second: PasswordWindow_4
+      213: 3928119288339433209
+    second: MachineGun_Charge_2
   - first:
-      213: -5516427492504677651
-    second: Monitor_0
+      213: -1230153391428786384
+    second: MachineGun_Charge_1
   - first:
-      213: -3389334748667634912
-    second: Monitor_1
+      213: -4089011562890850557
+    second: MachineGun_Charge_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -149,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: conditionWindow
+      name: Pistol_charge_3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 242
-        width: 80
-        height: 66
+        x: 42
+        y: 124
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 999e69863b58ad7a0800000000000000
-      internalID: -6351617318852302439
+      spriteID: af5c4d2f6c9ceaa60800000000000000
+      internalID: 7687303470282753530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: textBallonA_0
+      name: Pistol_charge_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 196
-        width: 146
-        height: 43
+        x: 124
+        y: 124
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85edf1023301ae0c0800000000000000
-      internalID: -4545803062108758440
+      spriteID: a4bd737e5ef9861b0800000000000000
+      internalID: -5663100721642874038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: textBallonA_1
+      name: Pistol_charge_1
       rect:
         serializedVersion: 2
-        x: 148
-        y: 196
-        width: 146
-        height: 43
+        x: 165
+        y: 124
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60bff84de18e8deb0800000000000000
-      internalID: -4694747392420873466
+      spriteID: 5436c6c5f73005a80800000000000000
+      internalID: -8480274252792306875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: textBallonB_0
+      name: Pistol_charge_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 152
-        width: 146
-        height: 43
+        x: 206
+        y: 124
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 813658628750501f0800000000000000
-      internalID: -1079450522084875496
+      spriteID: 69252fb7732596160800000000000000
+      internalID: 7019231892489786006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: textBallonB_1
+      name: MachineGun_Charge_8
       rect:
         serializedVersion: 2
-        x: 148
-        y: 152
-        width: 146
-        height: 43
+        x: 42
+        y: 42
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cba64d266c7b2fd0800000000000000
-      internalID: -2365660400964949050
+      spriteID: c7e09845f40a928e0800000000000000
+      internalID: -1717665520284004740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PasswordWindow_0
+      name: MachineGun_Charge_7
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 146
-        height: 146
+        x: 124
+        y: 42
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1022e629f841f5bc0800000000000000
-      internalID: -3792289754353098239
+      spriteID: 9991559dcfcd34710800000000000000
+      internalID: 1676426464848058777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PasswordWindow_1
+      name: MachineGun_Charge_6
       rect:
         serializedVersion: 2
-        x: 148
-        y: 1
-        width: 146
-        height: 146
+        x: 165
+        y: 42
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebaf04503a3c5ef20800000000000000
-      internalID: 3451379794384583358
+      spriteID: ccda79ddd1bdd4a90800000000000000
+      internalID: -7327960097343689268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PasswordWindow_2
+      name: MachineGun_Charge_5
       rect:
         serializedVersion: 2
-        x: 295
-        y: 1
-        width: 146
-        height: 146
+        x: 206
+        y: 42
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3920506cfd1515530800000000000000
-      internalID: 3841941978665517715
+      spriteID: 9ee0fd80e7f17cee0800000000000000
+      internalID: -1240988546142105879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PasswordWindow_3
+      name: MachineGun_Charge_4
       rect:
         serializedVersion: 2
-        x: 442
-        y: 1
-        width: 146
-        height: 146
+        x: 247
+        y: 42
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd52cac60c8bda5f0800000000000000
-      internalID: -743735226849810980
+      spriteID: c930357bc5b58b420800000000000000
+      internalID: 2645965234850956188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PasswordWindow_4
+      name: MachineGun_Charge_3
       rect:
         serializedVersion: 2
-        x: 589
-        y: 1
-        width: 146
-        height: 146
+        x: 288
+        y: 42
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 822cc99a1c1e69070800000000000000
-      internalID: 8112920000645087784
+      spriteID: 03c2c63324ff786a0800000000000000
+      internalID: -6446903681761924048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monitor_0
+      name: MachineGun_Charge_2
       rect:
         serializedVersion: 2
-        x: 386
-        y: 151
-        width: 174
-        height: 174
+        x: 329
+        y: 42
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,20 +373,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de25f004c66b173b0800000000000000
-      internalID: -5516427492504677651
+      spriteID: 9f605d04eab738630800000000000000
+      internalID: 3928119288339433209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monitor_1
+      name: MachineGun_Charge_1
       rect:
         serializedVersion: 2
-        x: 561
-        y: 151
-        width: 174
-        height: 174
+        x: 370
+        y: 42
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,8 +394,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02b17c8e00aa6f0d0800000000000000
-      internalID: -3389334748667634912
+      spriteID: 03725a4120e9deee0800000000000000
+      internalID: -1230153391428786384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MachineGun_Charge_0
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 42
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f0d67e5a9e047c0800000000000000
+      internalID: -4089011562890850557
       vertices: []
       indices: 
       edges: []
