@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 429143685}
   - component: {fileID: 429143684}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Cursor
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -611,7 +611,7 @@ GameObject:
   - component: {fileID: 1596932493}
   - component: {fileID: 1596932492}
   m_Layer: 0
-  m_Name: MapTelling
+  m_Name: MainMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -656,7 +656,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cf3a7965614fd3f45b34e9122f6a460d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 20d913aa3c625774cbc0e9edf4ac16d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -692,7 +692,7 @@ GameObject:
   - component: {fileID: 2066326286}
   - component: {fileID: 2066326287}
   m_Layer: 0
-  m_Name: Stage
+  m_Name: MapCollider
   m_TagString: Map
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -725,7 +725,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.66, y: -1.19}
+  m_Offset: {x: -3.295782, y: -1.1870575}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -736,5 +736,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.61, y: 0.24}
+  m_Size: {x: 12.338436, y: 0.21058464}
   m_EdgeRadius: 0

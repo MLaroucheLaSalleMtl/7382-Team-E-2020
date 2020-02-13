@@ -1,0 +1,874 @@
+fileFormatVersion: 2
+guid: 020c4726e3d8a074397c7de5fdab97d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6717712018006053942
+    second: NavigateMap_0
+  - first:
+      213: 6754552612753248160
+    second: NavigateMap_1
+  - first:
+      213: 6933005702863308324
+    second: ClothContainer_0
+  - first:
+      213: 7754298994704898380
+    second: ClothContainer_1
+  - first:
+      213: -6034202573920806338
+    second: ClothContainer_highlight
+  - first:
+      213: -2888709984537605784
+    second: PasswordMachine_0
+  - first:
+      213: 8986973773085154510
+    second: PasswordMachine_1
+  - first:
+      213: -7555152723150889560
+    second: PasswordMachine_highlight
+  - first:
+      213: -138987570310687768
+    second: InteractiveObject_1
+  - first:
+      213: -7135838754117846015
+    second: Trapdoor_0
+  - first:
+      213: -6484982221296491585
+    second: Trapdoor_1
+  - first:
+      213: -4235181201060415297
+    second: AudioPlate_0
+  - first:
+      213: 7948767199498628492
+    second: AudioPlate_1
+  - first:
+      213: -1671599351004438121
+    second: AudioPlate_highlight
+  - first:
+      213: -7125286364104151661
+    second: Computer_0
+  - first:
+      213: -3433558202280259427
+    second: Computer_1
+  - first:
+      213: -2370990600657598357
+    second: Computer_2
+  - first:
+      213: -4585234159447553999
+    second: Computer_highlight
+  - first:
+      213: 8041913378904299634
+    second: wirebox_0
+  - first:
+      213: -8201107098824556455
+    second: wirebox_1
+  - first:
+      213: 8299004133753136644
+    second: wirebox_2
+  - first:
+      213: -432675879117239099
+    second: wirebox_3
+  - first:
+      213: -5920187025832756407
+    second: TalkingWall_0
+  - first:
+      213: 3798978681173443688
+    second: TalkingWall_1
+  - first:
+      213: 7510882909553485402
+    second: SlidDoor_0
+  - first:
+      213: -7061418818883661331
+    second: SlidDoor_1
+  - first:
+      213: 7794941624515357455
+    second: SlidDoor_2
+  - first:
+      213: -84705078440880456
+    second: SlidDoor_highlight
+  - first:
+      213: -5303665203034782438
+    second: BigSliddoor_0
+  - first:
+      213: -8765649569993856598
+    second: BigSliddoor_1
+  - first:
+      213: -612713883639229809
+    second: BigSliddoor_2
+  - first:
+      213: -52928156698495718
+    second: BigSliddoor_highlight
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NavigateMap_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 133
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6349f980d7b1a3d50800000000000000
+      internalID: 6717712018006053942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NavigateMap_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 445
+        width: 133
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af08db60ddfcbd50800000000000000
+      internalID: 6754552612753248160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClothContainer_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 394
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426cce044fbf63060800000000000000
+      internalID: 6933005702863308324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClothContainer_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 394
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49dd850addcc9b60800000000000000
+      internalID: 7754298994704898380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClothContainer_highlight
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 393
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ad3b6cab4324ca0800000000000000
+      internalID: -6034202573920806338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PasswordMachine_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 313
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8690388f29d39e7d0800000000000000
+      internalID: -2888709984537605784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PasswordMachine_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 313
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc1e76180528bc70800000000000000
+      internalID: 8986973773085154510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PasswordMachine_highlight
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 350
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad14c090a4b62790800000000000000
+      internalID: -7555152723150889560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trapdoor_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 255
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cf65ed57868fc90800000000000000
+      internalID: -7135838754117846015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trapdoor_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 255
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb326e45707b006a0800000000000000
+      internalID: -6484982221296491585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudioPlate_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 238
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8b167f22d9935c0800000000000000
+      internalID: -4235181201060415297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudioPlate_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 238
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d646057a1bf4e60800000000000000
+      internalID: 7948767199498628492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudioPlate_highlight
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 237
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7916b9c2f394dc8e0800000000000000
+      internalID: -1671599351004438121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d23a0adc5ed1d90800000000000000
+      internalID: -7125286364104151661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 176
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90d47db10d8950d0800000000000000
+      internalID: -3433558202280259427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 176
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68830a5c9c881fd0800000000000000
+      internalID: -2370990600657598357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer_highlight
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 175
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138442a53d9fd50c0800000000000000
+      internalID: -4585234159447553999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wirebox_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2785d083c9d9a9f60800000000000000
+      internalID: 8041913378904299634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wirebox_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 144
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950c0a18b80df2e80800000000000000
+      internalID: -8201107098824556455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wirebox_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 144
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406aad52a4cfb2370800000000000000
+      internalID: 8299004133753136644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wirebox_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 144
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc46529493def9f0800000000000000
+      internalID: -432675879117239099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TalkingWall_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 118
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bbc59344547dda0800000000000000
+      internalID: -5920187025832756407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TalkingWall_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 118
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86400a09bfea8b430800000000000000
+      internalID: 3798978681173443688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlidDoor_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 59
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56ec7d36340c3860800000000000000
+      internalID: 7510882909553485402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlidDoor_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 59
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de15e2a4ffcc00e90800000000000000
+      internalID: -7061418818883661331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlidDoor_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 59
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0be42eab123d2c60800000000000000
+      internalID: 7794941624515357455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlidDoor_highlight
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 58
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b61cd01e2113def0800000000000000
+      internalID: -84705078440880456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSliddoor_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15038d09989566b0800000000000000
+      internalID: -5303665203034782438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSliddoor_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9e5f298282a5680800000000000000
+      internalID: -8765649569993856598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSliddoor_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82dbb818f33f77f0800000000000000
+      internalID: -612713883639229809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSliddoor_highlight
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15be553f16f34ff0800000000000000
+      internalID: -52928156698495718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
