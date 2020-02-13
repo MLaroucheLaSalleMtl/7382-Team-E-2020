@@ -251,9 +251,9 @@ TextureImporter:
       name: ClothContainer_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 394
-        width: 48
+        width: 49
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -844,7 +844,7 @@ TextureImporter:
         width: 42
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
