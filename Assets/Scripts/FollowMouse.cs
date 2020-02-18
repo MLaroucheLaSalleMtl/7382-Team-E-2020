@@ -22,10 +22,11 @@ public class FollowMouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //this.transform.position = Camera.main.ScreenToWorldPoint(mPos);
-        Ray ray = Camera.main.ScreenPointToRay(mPos);
-        Vector3 pos = ray.GetPoint (map.position.z - Camera.main.transform.position.z);
-        this.transform.position = pos;
+        
+        this.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(mPos.x, mPos.y, map.position.z - Camera.main.transform.position.z));
+        // Ray ray = Camera.main.ScreenPointToRay(mPos);
+        // Vector3 pos = ray.GetPoint (map.position.z - Camera.main.transform.position.z);
+        // this.transform.position = pos;
 
         if(!player.GetComponent<CharacterMovement>().Run)
         {

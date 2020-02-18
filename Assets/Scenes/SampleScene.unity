@@ -307,7 +307,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319446224}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: e1d4ef27c97642748b996b8ed3758712, type: 2}
   m_CullingMode: 0
@@ -458,6 +458,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baf4184ab5db65e4dafca1e45a52b6d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cross: {fileID: 429143685}
+  sprites:
+  - {fileID: 8399460948093964541, guid: eaa06d374a5872041b4a1a3ca42b8b36, type: 3}
+  - {fileID: 3098029548555294008, guid: eaa06d374a5872041b4a1a3ca42b8b36, type: 3}
+  - {fileID: 7929895491367474538, guid: eaa06d374a5872041b4a1a3ca42b8b36, type: 3}
+  - {fileID: 1253111034339343042, guid: eaa06d374a5872041b4a1a3ca42b8b36, type: 3}
 --- !u!1 &429143683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,7 +1394,18 @@ MonoBehaviour:
     m_ActionId: 0349a5da-9a06-47da-97e8-56964cf061b7
     m_ActionName: Player/Look
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 319446231}
+        m_MethodName: OnShoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: a1b88b32-1091-4d0b-af06-f4f6d850fb72
     m_ActionName: Player/Fire
   - m_PersistentCalls:
