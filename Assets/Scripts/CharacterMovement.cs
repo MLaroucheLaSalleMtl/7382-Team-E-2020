@@ -67,7 +67,7 @@ public class CharacterMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log(move.x);
+        // Debug.Log(move.x);
 
         rigid.velocity = MovePlayer();
         anim.enabled = !(move.x == 0 && move.y == 0);
@@ -99,7 +99,7 @@ public class CharacterMovement : MonoBehaviour
         radians = cross.localPosition.y / cross.localPosition.x;
         angle = (sprite.flipX) ? -radians * (180 / Mathf.PI) : radians * (180 / Mathf.PI);
 
-        if (angle < 20 && angle > -20)
+        if (angle < 20 && angle > 5)
             this.GetComponent<SpriteRenderer>().sprite = sprites[0];
         else if (angle > 20 && angle < 40)
             this.GetComponent<SpriteRenderer>().sprite = sprites[1];
@@ -107,9 +107,9 @@ public class CharacterMovement : MonoBehaviour
             this.GetComponent<SpriteRenderer>().sprite = sprites[2];
         else if (angle > 60)
             this.GetComponent<SpriteRenderer>().sprite = sprites[3];
-        else if (angle < -20 && angle > -40)
+        else if (angle < 5 && angle > -20)
             this.GetComponent<SpriteRenderer>().sprite = sprites[4];
-        else if (angle < -40)
+        else if (angle < -30)
             this.GetComponent<SpriteRenderer>().sprite = sprites[5];
 
     }
