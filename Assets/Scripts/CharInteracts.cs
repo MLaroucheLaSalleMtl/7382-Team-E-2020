@@ -14,15 +14,16 @@ public class CharInteracts : MonoBehaviour
     private bool justFired = false;
     private bool fire = false;
 
+    public float Count { get => count; }
+
     public void OnShoot(InputAction.CallbackContext context)
     {
-        //fire = context.ReadValue<float>() > 0;
         Shoot();
     }
 
     private void Shoot()
     {
-        if (!justFired)
+        if (!justFired && this.GetComponent<CharacterMovement>().IsGrounded)
         {
             RaycastHit2D hit = Physics2D.Raycast(gun.transform.position, cross.localPosition, 25f);
             Debug.DrawLine(gun.transform.position, hit.point, Color.blue, 0.05f);
@@ -41,7 +42,6 @@ public class CharInteracts : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(count);
         if (justFired && count < fireRate)
         {
             count += Time.deltaTime;

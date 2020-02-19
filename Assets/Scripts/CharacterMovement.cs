@@ -21,6 +21,9 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float speed = 5f;
     [SerializeField] private float smoothing = 0.1f;
     [SerializeField] private float jumpForce = 20f;
+    [SerializeField] private float airTime = 2f;
+
+    private float currAirTime = 0;
 
     private bool run = false;
     private bool jump = false;
@@ -33,12 +36,19 @@ public class CharacterMovement : MonoBehaviour
     private bool gunEquipped = true;
 
     public bool Run { get => run; }
+    public Vector2 Move { get => move; }
+    public bool IsGrounded { get => isGrounded; }
 
 
     // MOVEMENT METHODS ==============================================
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        isGrounded = collision.gameObject.tag == "Map";
+        isGrounded = collision.gameObject.tag == "Ground";
+        if (isGrounded)
+        {
+            currAirTime = 0;
+        }
+        Debug.Log(collision.gameObject.tag);
     }
 
     public void OnJump(InputAction.CallbackContext context){
@@ -68,18 +78,29 @@ public class CharacterMovement : MonoBehaviour
     void FixedUpdate()
     {
         // Debug.Log(move.x);
-
-        rigid.velocity = MovePlayer();
-        anim.enabled = !(move.x == 0 && move.y == 0);
+        if (GetComponent<CharInteracts>().Count == 0)
+        {
+            rigid.velocity = MovePlayer();
+            anim.enabled = !(move.x == 0 && isGrounded);
+        }
+        else
+        {
+            rigid.velocity = Vector3.zero;
+            anim.enabled = false;
+        }
         AimGun();
 
         // Collider corrections.
-        GameObject.Find("ColliderAiming").GetComponent<BoxCollider2D>().enabled = (!anim.enabled);
-        GameObject.Find("ColliderWalk").GetComponent<BoxCollider2D>().enabled = (anim.enabled);
+        GameObject.Find("ColliderAiming").GetComponent<CapsuleCollider2D>().enabled = (!anim.enabled);
+        GameObject.Find("ColliderWalk").GetComponent<CapsuleCollider2D>().enabled = (anim.enabled);
 
         if (jump)
         {
-            rigid.AddForce(new Vector2(0, jumpForce));
+            if(currAirTime < airTime)
+            {
+                rigid.AddForce(new Vector2(0, jumpForce));
+                currAirTime += Time.deltaTime;
+            }
             isGrounded = false;
         }
 

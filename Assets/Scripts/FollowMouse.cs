@@ -40,7 +40,10 @@ public class FollowMouse : MonoBehaviour
         GameObject.FindWithTag("NearCur").transform.position = 
             new Vector2(ray.GetPoint(0.15f).x, ray.GetPoint(0.15f).y + 0.05f);
 
-        if (!player.GetComponent<CharacterMovement>().Run)
+
+        if (!player.GetComponent<CharacterMovement>().Run ||
+            player.GetComponent<CharacterMovement>().Run && 
+            player.GetComponent<CharInteracts>().Count > 0)
         {
             if (this.transform.localPosition.x < 0)
             {
@@ -50,6 +53,10 @@ public class FollowMouse : MonoBehaviour
             {
                 player.flipX = false;
             }
+        }
+        else
+        {
+            player.flipX = (player.GetComponent<CharacterMovement>().Move.x < 0);
         }
 
     }

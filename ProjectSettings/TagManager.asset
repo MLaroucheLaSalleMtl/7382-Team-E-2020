@@ -7,6 +7,7 @@ TagManager:
   - Map
   - interObject
   - NearCur
+  - Ground
   layers:
   - Default
   - TransparentFX
