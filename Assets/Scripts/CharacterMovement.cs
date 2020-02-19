@@ -73,6 +73,10 @@ public class CharacterMovement : MonoBehaviour
         anim.enabled = !(move.x == 0 && move.y == 0);
         AimGun();
 
+        // Collider corrections.
+        GameObject.Find("ColliderAiming").GetComponent<BoxCollider2D>().enabled = (!anim.enabled);
+        GameObject.Find("ColliderWalk").GetComponent<BoxCollider2D>().enabled = (anim.enabled);
+
         if (jump)
         {
             rigid.AddForce(new Vector2(0, jumpForce));
