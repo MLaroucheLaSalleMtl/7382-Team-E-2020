@@ -91,8 +91,8 @@ public class CharacterMovement : MonoBehaviour
         AimGun();
 
         // Collider corrections.
-        GameObject.Find("ColliderAiming").GetComponent<CapsuleCollider2D>().enabled = (!anim.enabled);
-        GameObject.Find("ColliderWalk").GetComponent<CapsuleCollider2D>().enabled = (anim.enabled);
+       // GameObject.Find("ColliderAiming").GetComponent<CapsuleCollider2D>().enabled = (!anim.enabled);
+       // GameObject.Find("ColliderWalk").GetComponent<CapsuleCollider2D>().enabled = (anim.enabled);
 
         if (jump)
         {
