@@ -13,7 +13,7 @@ TextureImporter:
     second: TutoOne_2
   - first:
       213: 2138216844490012721
-    second: TutoOne3
+    second: TutoOne_3
   - first:
       213: -5850465810112059527
     second: TutoOne_4
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TutoOne3
+      name: TutoOne_3
       rect:
         serializedVersion: 2
         x: 147
@@ -613,7 +613,7 @@ TextureImporter:
         width: 146
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
