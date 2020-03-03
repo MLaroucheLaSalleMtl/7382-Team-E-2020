@@ -1695,18 +1695,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.419204, y: 0}
+  m_Offset: {x: 0.0010857582, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.26, y: 0.52}
+    newSize: {x: 0.26, y: 0.52}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.46, y: 1}
+  m_Size: {x: 0.6731596, y: 0.96}
   m_EdgeRadius: 0
 --- !u!4 &749134339
 Transform:
@@ -1716,7 +1716,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749134337}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.187, y: -1.41, z: 0}
+  m_LocalPosition: {x: -6.437, y: -1.41, z: 0}
   m_LocalScale: {x: 0.890625, y: 1, z: 1}
   m_Children:
   - {fileID: 1103349381}
@@ -1737,7 +1737,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameIsPaused: 0
   readScript: {fileID: 1103349380}
-  interactive: {fileID: 319446231}
 --- !u!1 &828998753
 GameObject:
   m_ObjectHideFlags: 0
@@ -5372,6 +5371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272935936217405605, guid: 67a7ebf44c99ea644aa101f657072340,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6272935936217405606, guid: 67a7ebf44c99ea644aa101f657072340,
         type: 3}

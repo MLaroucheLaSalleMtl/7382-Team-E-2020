@@ -7,25 +7,42 @@ public class summaryScript : MonoBehaviour
     public bool GameIsPaused = false;
     public GameObject readScript;
 
-    public CharInteracts interactive;
+    bool interactable;
 
     public void OnRead(InputAction.CallbackContext context)
+    {
+        // if (interactive.interactive)
+        // {
+        //     readScript.SetActive(!readScript.activeInHierarchy); //toggle system 
+        // }
+        if(interactable)
         {
-        if (interactive.interactive)
+            readScript.SetActive(!readScript.activeInHierarchy);
+        }
+        else
         {
-            readScript.SetActive(!readScript.activeInHierarchy); //toggle system 
+            readScript.SetActive(false);
         }
 
+    }
 
-        if (GameIsPaused)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log(col.tag);
+        if(col.tag == "Player")
+        {
+            interactable = true;
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if(col.tag == "Player")
+        {
+            readScript.SetActive(false);
+            interactable = false;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
