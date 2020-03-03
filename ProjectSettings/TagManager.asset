@@ -8,6 +8,8 @@ TagManager:
   - interObject
   - NearCur
   - Ground
+  - textLog
+  - Enemy
   layers:
   - Default
   - TransparentFX

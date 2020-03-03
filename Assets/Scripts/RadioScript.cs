@@ -6,20 +6,33 @@ public class RadioScript : MonoBehaviour
 {
     public Animator animator;
     public GameObject player;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
-
     }
-
+        
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.tag == "Player")
+        if (col.tag == "Player" && this.gameObject.name =="FirstRadio")
         {
+
             animator.SetBool("DialogueOne", true);
-            Invoke("DestroyObject", 10f);
+            Invoke("DestroyObject", 15f);
+        }
+        if (col.tag == "Player" && this.gameObject.name == "SecondRadio")
+        {
+
+            animator.SetBool("DialogueTwo", true);
+            Invoke("DestroyObject", 15f);
+        }
+        if (col.tag == "Player" && this.gameObject.name == "ThirdRadio")
+        {
+
+           animator.SetBool("DialogueThree", true);
+           Invoke("DestroyObject", 15f);
         }
     }
 

@@ -32,6 +32,7 @@ public class FollowMouse : MonoBehaviour
         =================================================================================*/
         this.transform.position =
                 Camera.main.ScreenToWorldPoint(new Vector3(mPos.x, mPos.y, map.position.z - Camera.main.transform.position.z));
+        //Debug.Log(mPos);
 
         ray = new Ray2D(player.transform.position, this.transform.localPosition);
 
