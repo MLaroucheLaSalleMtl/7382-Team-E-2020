@@ -25,6 +25,7 @@ public class CharInteracts : MonoBehaviour
         Shoot();
     }
 
+
     private void Shoot()
     {
         if (!justFired /*&& this.GetComponent<CharacterMovement>().IsGrounded*/)
@@ -78,16 +79,14 @@ public class CharInteracts : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.tag == "textLog")
-        {
-            interactive = true;  
-        }
-        else
-        {
-            interactive = false;
-        }
+    // private void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     if(collision.tag == "textLog")
+    //     {
+    //         if(collision.GetComponent<summaryScript>())
+    //         {
+    //         }
+    //     }
 
-    }
+    // }
 }

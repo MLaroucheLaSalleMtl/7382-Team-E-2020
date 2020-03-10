@@ -58,7 +58,7 @@ public class CharacterMovement : MonoBehaviour
     // MOVEMENT METHODS ==============================================
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        isGrounded = (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Enemy") ;
+        // isGrounded = (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Enemy") ;
         if (isGrounded)
         {
             currAirTime = 0;
@@ -100,6 +100,12 @@ public class CharacterMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        RaycastHit2D hit = 
+        Physics2D.Raycast(this.transform.position, -Vector2.up, 25f);
+        isGrounded = (hit.distance <= 0.245f || Mathf.Abs(rigid.velocity.y) <= 0.06f);
+
+        //Debug.Log(hit.distance);
+
         // Debug.Log(canRun);
         StaminaCheck();
         MoveOnShoot();
@@ -118,10 +124,29 @@ public class CharacterMovement : MonoBehaviour
 
         anim.SetBool("Grounded", isGrounded);
         anim.SetFloat("Walk", Math.Abs(move.x));
+        //anim.SetBool("WalkOpposite", WalkBack());
         anim.SetBool("Run", (Run && canRun));
+
+
     }
 
     // OTHER METHODS ======================================================
+
+    private bool WalkBack()
+    {
+        if(move.x > 0 && sprite.flipX)
+        {
+            return true;
+        }
+        else if(move.x < 0 && !sprite.flipX)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 
     private void StaminaCheck()
     {
@@ -209,7 +234,8 @@ public class CharacterMovement : MonoBehaviour
     private void AimGun()
     {
         radians = cross.localPosition.y / cross.localPosition.x;
-        angle = (sprite.flipX) ? -radians * (180 / Mathf.PI) : radians * (180 / Mathf.PI);
+        angle = (sprite.flipX) ? 
+            -radians * (180 / Mathf.PI) : radians * (180 / Mathf.PI);
 
         if (isGrounded)
         {

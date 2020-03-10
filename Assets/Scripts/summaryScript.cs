@@ -4,31 +4,34 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class summaryScript : MonoBehaviour
 {
-    public bool GameIsPaused = false;
-    public GameObject readScript;
+    private bool GameIsPaused = false;
 
-    bool interactable;
+    private SpriteRenderer sprite;
+
+    bool interactable = false;
 
     public void OnRead(InputAction.CallbackContext context)
+    {
+        ShowSprite();
+    }
+
+    public void ShowSprite()
     {
         // if (interactive.interactive)
         // {
         //     readScript.SetActive(!readScript.activeInHierarchy); //toggle system 
         // }
+        Debug.Log("Pressed");
         if(interactable)
         {
-            readScript.SetActive(!readScript.activeInHierarchy);
-        }
-        else
-        {
-            readScript.SetActive(false);
+            sprite.enabled = !sprite.enabled;
         }
 
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log(col.tag);
+        Debug.Log(interactable);
         if(col.tag == "Player")
         {
             interactable = true;
@@ -39,7 +42,7 @@ public class summaryScript : MonoBehaviour
     {
         if(col.tag == "Player")
         {
-            readScript.SetActive(false);
+            sprite.enabled = false;
             interactable = false;
         }
     }
@@ -47,7 +50,7 @@ public class summaryScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame

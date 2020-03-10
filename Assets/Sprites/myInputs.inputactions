@@ -234,6 +234,17 @@
                 {
                     "name": "",
                     "id": "0e0cb301-561a-4234-a3d9-6a7a572b7a53",
+                    "path": "<Gamepad>/leftStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dcf8b6a6-2d65-4bff-9ff3-a1b8883c76b3",
                     "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
@@ -249,6 +260,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c82d362-915d-4087-b481-90c70b57d216",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false

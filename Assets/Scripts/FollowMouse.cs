@@ -5,7 +5,9 @@ using UnityEngine.InputSystem;
 
 public class FollowMouse : MonoBehaviour
 {
-    Vector2 mPos = new Vector2();
+    string controlType;
+
+    Vector2 lookPos = new Vector2();
     [SerializeField] private Transform map;
     [SerializeField] private SpriteRenderer player;
 
@@ -13,7 +15,19 @@ public class FollowMouse : MonoBehaviour
 
 
     public void OnLook(InputAction.CallbackContext context){
-        mPos = context.ReadValue<Vector2>();
+        controlType = context.control.device.name;
+
+
+        if (controlType == "XInputControllerWindows")
+        {
+            this.transform.localPosition = context.ReadValue<Vector2>();
+        }
+        else
+        {
+            lookPos = context.ReadValue<Vector2>();
+            this.transform.position =
+            Camera.main.ScreenToWorldPoint(new Vector3(lookPos.x, lookPos.y, map.position.z - Camera.main.transform.position.z));
+        }
     }
 
     // Start is called before the first frame update
@@ -23,16 +37,16 @@ public class FollowMouse : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+
         /* Teacher's code for reference ===================================================
         Ray ray = Camera.main.ScreenPointToRay(mPos);                                    ||
         Vector3 pos = ray.GetPoint (map.position.z - Camera.main.transform.position.z);  ||
         this.transform.position = pos;                                                   ||
         =================================================================================*/
-        this.transform.position =
-                Camera.main.ScreenToWorldPoint(new Vector3(mPos.x, mPos.y, map.position.z - Camera.main.transform.position.z));
-        //Debug.Log(mPos);
+
+        Debug.Log(controlType);
 
         ray = new Ray2D(player.transform.position, this.transform.localPosition);
 
