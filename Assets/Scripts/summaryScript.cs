@@ -17,11 +17,6 @@ public class summaryScript : MonoBehaviour
 
     public void ShowSprite()
     {
-        // if (interactive.interactive)
-        // {
-        //     readScript.SetActive(!readScript.activeInHierarchy); //toggle system 
-        // }
-        Debug.Log("Pressed");
         if(interactable)
         {
             sprite.enabled = !sprite.enabled;
@@ -31,7 +26,6 @@ public class summaryScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log(interactable);
         if(col.tag == "Player")
         {
             interactable = true;

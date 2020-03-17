@@ -1,43 +1,40 @@
 fileFormatVersion: 2
-guid: 69bb895c5f7e71d47ac578b9481409e8
+guid: c85ffaaa0f0834440986c91b2544b769
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5009461801657270473
-    second: Debris
+      213: 3499036339120887409
+    second: slidDoor_0
   - first:
-      213: 1249967988623777620
-    second: BlueKey
+      213: 5958555774241273091
+    second: slidDoor_1
   - first:
-      213: 3609051809477561678
-    second: GreenKey
+      213: -7318788763058746425
+    second: slidDoor_2
   - first:
-      213: -4161370166444349312
-    second: HangedMachineGun
+      213: 2393499942046926725
+    second: slidDoor_3
   - first:
-      213: 1351588412684844777
-    second: BlueKeyHL
+      213: 7015734305315998029
+    second: slidDoor_4
   - first:
-      213: -5455065873037733236
-    second: GreenKeyHL
+      213: 1208703067857180433
+    second: slidDoor_5
   - first:
-      213: -70093094618921413
-    second: HangeMachineGunHL
+      213: -3327077626558263176
+    second: slidDoor_6
   - first:
-      213: -6037591022449680899
-    second: textLog
+      213: -1320501787070680496
+    second: slidDoor_7
   - first:
-      213: 1723481627716898543
-    second: textLogHL
+      213: 4483894242976084588
+    second: slidDoor_8
   - first:
-      213: -8610587324594170738
-    second: ChoiSummary
+      213: -4355602749579018634
+    second: slidDoor_9
   - first:
-      213: 3121438698103093221
-    second: AaronSummary
-  - first:
-      213: -354147931291634235
-    second: JoeySummary
+      213: 4930830855070588174
+    second: slidDoor_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -119,18 +116,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -146,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Debris
+      name: slidDoor_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 125
-        width: 111
-        height: 51
+        x: 1
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73f745c5801da7ab0800000000000000
-      internalID: -5009461801657270473
+      spriteID: 176db7103031f8030800000000000000
+      internalID: 3499036339120887409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueKey
+      name: slidDoor_1
       rect:
         serializedVersion: 2
-        x: 112
-        y: 140
-        width: 5
-        height: 9
+        x: 28
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45f97865347c85110800000000000000
-      internalID: 1249967988623777620
+      spriteID: 305f00a28ea01b250800000000000000
+      internalID: 5958555774241273091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreenKey
+      name: slidDoor_2
       rect:
         serializedVersion: 2
-        x: 118
-        y: 140
-        width: 5
-        height: 9
+        x: 55
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4d04e7cf7de51230800000000000000
-      internalID: 3609051809477561678
+      spriteID: 7cb43c785607e6a90800000000000000
+      internalID: -7318788763058746425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HangedMachineGun
+      name: slidDoor_3
       rect:
         serializedVersion: 2
-        x: 124
-        y: 125
-        width: 13
-        height: 24
+        x: 82
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0882d2aa1e7df36c0800000000000000
-      internalID: -4161370166444349312
+      spriteID: 58700a7148b673120800000000000000
+      internalID: 2393499942046926725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlueKeyHL
+      name: slidDoor_4
       rect:
         serializedVersion: 2
-        x: 170
-        y: 139
-        width: 7
-        height: 11
+        x: 109
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ee3d94108ec1c210800000000000000
-      internalID: 1351588412684844777
+      spriteID: d49c1e20e25ec5160800000000000000
+      internalID: 7015734305315998029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreenKeyHL
+      name: slidDoor_5
       rect:
         serializedVersion: 2
-        x: 178
-        y: 139
-        width: 7
-        height: 11
+        x: 136
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c82da3b9d76bb44b0800000000000000
-      internalID: -5455065873037733236
+      spriteID: 1175d86490d26c010800000000000000
+      internalID: 1208703067857180433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HangeMachineGunHL
+      name: slidDoor_6
       rect:
         serializedVersion: 2
-        x: 186
-        y: 125
-        width: 15
-        height: 26
+        x: 163
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b36080aa3baf60ff0800000000000000
-      internalID: -70093094618921413
+      spriteID: 87058d8b688d3d1d0800000000000000
+      internalID: -3327077626558263176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: textLog
+      name: slidDoor_7
       rect:
         serializedVersion: 2
-        x: 203
-        y: 126
-        width: 16
-        height: 15
+        x: 190
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfd9ccf14fa263ca0800000000000000
-      internalID: -6037591022449680899
+      spriteID: 0523268fe92acade0800000000000000
+      internalID: -1320501787070680496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: textLogHL
+      name: slidDoor_8
       rect:
         serializedVersion: 2
-        x: 241
-        y: 125
-        width: 18
-        height: 17
+        x: 217
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fee4af4b8690be710800000000000000
-      internalID: 1723481627716898543
+      spriteID: c62320bae0ef93e30800000000000000
+      internalID: 4483894242976084588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChoiSummary
+      name: slidDoor_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 12
-        width: 84
-        height: 97
+        x: 244
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,50 +334,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e84551af27c018880800000000000000
-      internalID: -8610587324594170738
+      spriteID: 67eb0a0506acd83c0800000000000000
+      internalID: -4355602749579018634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AaronSummary
+      name: slidDoor_10
       rect:
         serializedVersion: 2
-        x: 85
-        y: 12
-        width: 84
-        height: 97
+        x: 271
+        y: 1
+        width: 26
+        height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e7b79435f3915b20800000000000000
-      internalID: 3121438698103093221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JoeySummary
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 0
-        width: 84
-        height: 109
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c53c653550d51bf0800000000000000
-      internalID: -354147931291634235
+      spriteID: e0d940cb984dd6440800000000000000
+      internalID: 4930830855070588174
       vertices: []
       indices: 
       edges: []

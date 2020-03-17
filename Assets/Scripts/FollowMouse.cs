@@ -46,7 +46,7 @@ public class FollowMouse : MonoBehaviour
         this.transform.position = pos;                                                   ||
         =================================================================================*/
 
-        Debug.Log(controlType);
+
 
         ray = new Ray2D(player.transform.position, this.transform.localPosition);
 

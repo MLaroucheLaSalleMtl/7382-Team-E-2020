@@ -498,7 +498,7 @@ MonoBehaviour:
   jumpForce: 20
   airTime: 2
   staminaDrainRate: 35
-  staminaRegenRate: 8
+  staminaRegenRate: 20
   timeForRegen: 3
   waitBeforeRun: 5
 --- !u!1001 &7463258856854447090

@@ -41,6 +41,7 @@ public class MonsterAI : MonoBehaviour
         //    FollowPlayer();
         //}
         FollowPlayer();
+
         //Debug.Log(setAfterWait);
 
         anim.SetBool("Walk", move.x != 0);
@@ -61,6 +62,9 @@ public class MonsterAI : MonoBehaviour
             new Vector2(this.transform.position.x - 20, this.transform.position.y), 15f);
         RaycastHit2D hitRight = Physics2D.Raycast(this.transform.position,
             new Vector2(this.transform.position.x + 20, this.transform.position.y), 15f);
+
+
+
 
         if (hitLeft.collider.tag == "Player" || hitRight.collider.tag == "Player")
         {

@@ -56,17 +56,6 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(hp <= 0)
-        {
-            if(GameObject.Find("Player"))
-            {
-                Destroy(GameObject.Find("Player").gameObject);
-            }
-            if(!gameOverText.activeInHierarchy)
-            {
-                gameOverText.SetActive(true);
-            }
-            Invoke("ReloadScene", 5f);
-        }
+
     }
 }

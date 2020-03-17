@@ -21,7 +21,7 @@ public class DoorScript : MonoBehaviour
         {
             animator.SetBool("open", true);
             animator.SetBool("close", false);
-            Invoke("DestroyObject", 1.5f);
+            Invoke("DestroyObject", 1f);
         }
     }
 
@@ -31,7 +31,7 @@ public class DoorScript : MonoBehaviour
         {
             animator.SetBool("close", true);
             animator.SetBool("open", false) ;
-            Invoke("EnableCollider", 1.5f);
+            Invoke("EnableCollider", 1f);
 
         }
     }

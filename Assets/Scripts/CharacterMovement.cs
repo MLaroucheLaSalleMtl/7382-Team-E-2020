@@ -52,7 +52,7 @@ public class CharacterMovement : MonoBehaviour
 
     public bool Run { get => run; }
     public Vector2 Move { get => move; }
-    public bool IsGrounded { get => isGrounded; }
+    public bool IsGrounded { get => isGrounded; set => isGrounded = value;  }
 
 
     // MOVEMENT METHODS ==============================================
@@ -71,6 +71,8 @@ public class CharacterMovement : MonoBehaviour
             // anim.SetTrigger("Damaged");
             // Fix flinch after demo.
         }
+
+
     }
 
     public void OnJump(InputAction.CallbackContext context){
@@ -100,13 +102,14 @@ public class CharacterMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        RaycastHit2D hit = 
-        Physics2D.Raycast(this.transform.position, -Vector2.up, 25f);
-        isGrounded = (hit.distance <= 0.245f || Mathf.Abs(rigid.velocity.y) <= 0.06f);
+        //RaycastHit2D hit = 
+        //Physics2D.Raycast(this.transform.position, -Vector2.up, 25f, 11);
+        //isGrounded = (hit.distance <= 0.245f );
 
         //Debug.Log(hit.distance);
 
         // Debug.Log(canRun);
+
         StaminaCheck();
         MoveOnShoot();
         AimGun();
@@ -119,7 +122,7 @@ public class CharacterMovement : MonoBehaviour
                 rigid.AddForce(new Vector2(0, jumpForce));
                 currAirTime += Time.deltaTime;
             }
-            isGrounded = false;
+            //isGrounded = false;
         }
 
         anim.SetBool("Grounded", isGrounded);
@@ -187,7 +190,7 @@ public class CharacterMovement : MonoBehaviour
         if (GetComponent<CharInteracts>().Count == 0)
         {
             rigid.velocity = MovePlayer();
-            anim.enabled = (move.x != 0 || isGrounded);
+            anim.enabled = (rigid.velocity != Vector2.zero && isGrounded);
         }
         else
         {
@@ -270,5 +273,7 @@ public class CharacterMovement : MonoBehaviour
         else if (angle < -70)
             this.GetComponent<SpriteRenderer>().sprite = sprites[9];
     }
+
+
 
 }
