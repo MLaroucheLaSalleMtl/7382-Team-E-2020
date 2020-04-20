@@ -16,7 +16,8 @@ public class CharacterMovement : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rigid;
     private SpriteRenderer sprite;
-
+    [SerializeField] private AudioSource walkstep;
+    [SerializeField] private AudioSource runstep;
 
     // MOVEMENT
     private Vector2 move = new Vector2();
@@ -65,11 +66,16 @@ public class CharacterMovement : MonoBehaviour
         }
         // Debug.Log(collision.gameObject.tag);
 
+        //to optimize...
         if (collision.gameObject.tag == "Enemy")
         {
             instance.DamagePlayer(10);  // only one enemy so one damage only
             // anim.SetTrigger("Damaged");
             // Fix flinch after demo.
+        }
+        if (collision.gameObject.tag == "Rocket")
+        {
+            instance.DamagePlayer(15);
         }
 
 
@@ -102,14 +108,6 @@ public class CharacterMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        //RaycastHit2D hit = 
-        //Physics2D.Raycast(this.transform.position, -Vector2.up, 25f, 11);
-        //isGrounded = (hit.distance <= 0.245f );
-
-        //Debug.Log(hit.distance);
-
-        // Debug.Log(canRun);
-
         StaminaCheck();
         MoveOnShoot();
         AimGun();
@@ -216,6 +214,12 @@ public class CharacterMovement : MonoBehaviour
         if(Run && isGrounded)
         {
             pos.x = (canRun) ? move.x * (speed * 2) : move.x * speed;
+            if (!runstep.isPlaying && Mathf.Abs(move.x) > 0 && canRun)
+            {
+                runstep.Play();
+                runstep.pitch = UnityEngine.Random.Range(0.8f, 1.1f);
+                runstep.volume = UnityEngine.Random.Range(0.2f, 0.5f);
+            }
         }
         else
         {
@@ -247,6 +251,12 @@ public class CharacterMovement : MonoBehaviour
         else
         {
             DetermineAim(midAirSprites);
+        }
+        if (!Run && isGrounded && !walkstep.isPlaying && Mathf.Abs(move.x) > 0)
+        {
+            walkstep.Play();
+            walkstep.pitch = UnityEngine.Random.Range(0.8f, 1.1f);
+            walkstep.volume = UnityEngine.Random.Range(0.1f, 0.4f);
         }
     }
 

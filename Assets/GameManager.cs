@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
 
     private float hp = 100;
     private float stamina = 100;
+    private int amountOfEnemies = 0;
+
+
+    public int AmountOfEnemies { get => amountOfEnemies; set => amountOfEnemies = value; }
 
     public float Hp { get => hp; set => hp = value; }
     public float Stamina { get => stamina; set => stamina = value; }

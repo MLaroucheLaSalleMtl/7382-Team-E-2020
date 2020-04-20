@@ -13,6 +13,7 @@ public class OutLine : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             outline.SetActive(true);
+            
         }
     }
 
@@ -21,6 +22,7 @@ public class OutLine : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             outline.SetActive(false);
+            
         }
     }
 }

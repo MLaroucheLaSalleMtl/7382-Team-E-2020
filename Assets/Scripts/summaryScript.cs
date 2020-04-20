@@ -8,7 +8,7 @@ public class summaryScript : MonoBehaviour
 
     private SpriteRenderer sprite;
 
-    bool interactable = false;
+    private bool interactable = false;
 
     public void OnRead(InputAction.CallbackContext context)
     {
@@ -21,7 +21,6 @@ public class summaryScript : MonoBehaviour
         {
             sprite.enabled = !sprite.enabled;
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -30,6 +29,8 @@ public class summaryScript : MonoBehaviour
         {
             interactable = true;
         }
+        Debug.Log(interactable);
+
     }
 
     private void OnTriggerExit2D(Collider2D col)
@@ -39,6 +40,8 @@ public class summaryScript : MonoBehaviour
             sprite.enabled = false;
             interactable = false;
         }
+        Debug.Log(interactable);
+
     }
 
     // Start is called before the first frame update
@@ -50,8 +53,8 @@ public class summaryScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
+
     public void Resume()
     {
         Time.timeScale = 1f;

@@ -8,6 +8,24 @@ TextureImporter:
   - first:
       213: 9189677883553896197
     second: Creator_Selected
+  - first:
+      213: 4810134203397928451
+    second: endingGate_0
+  - first:
+      213: 613298972996674556
+    second: endingGate_1
+  - first:
+      213: 7829108684706075531
+    second: endingGate_2
+  - first:
+      213: -8998562946505575369
+    second: endingGate_3
+  - first:
+      213: 3826747114751966648
+    second: endingGate_4
+  - first:
+      213: -2854104382069340959
+    second: endingGate_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -133,7 +151,7 @@ TextureImporter:
         width: 71
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,6 +159,132 @@ TextureImporter:
       bones: []
       spriteID: 5075e79985b488f70800000000000000
       internalID: 9189677883553896197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endingGate_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 135
+        width: 204
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3067d73a29701c240800000000000000
+      internalID: 4810134203397928451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endingGate_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 135
+        width: 204
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf32492aa20e28800800000000000000
+      internalID: 613298972996674556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endingGate_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 135
+        width: 204
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83d4db4ed496ac60800000000000000
+      internalID: 7829108684706075531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endingGate_3
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 135
+        width: 204
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734fa843daeae1380800000000000000
+      internalID: -8998562946505575369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endingGate_4
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 135
+        width: 204
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdba04d9365b1530800000000000000
+      internalID: 3826747114751966648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: endingGate_5
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 134
+        width: 204
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e40fdaaf2f2468d0800000000000000
+      internalID: -2854104382069340959
       vertices: []
       indices: 
       edges: []

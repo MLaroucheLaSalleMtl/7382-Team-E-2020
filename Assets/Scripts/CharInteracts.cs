@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+//added library
+using UnityEngine.UI;
 
 public class CharInteracts : MonoBehaviour
 {
@@ -10,15 +12,30 @@ public class CharInteracts : MonoBehaviour
     [SerializeField] private LineRenderer line;
     [SerializeField] float fireRate = 0.4f;
 
+    [SerializeField] private int rocketDamage = 15;
+    [SerializeField] private float crawlerDamage = 10f;
+
+    //Added ammo counter vairables
+    [SerializeField] Text ammoCounter;
+    int ammoMax = 20;
+    int ammoCurrent;
+
+    //Sound effect variables
+    public AudioSource shotSnd;
+    public AudioSource reloadSnd;
+
     private Vector3[] linepos = new Vector3[2];
     private float count = 0;
     private bool canShoot = true;
     private bool justFired = false;
     private bool fire = false;
+    bool isReloading;
 
     public bool interactive;
 
     public float Count { get => count; }
+
+    int layerMask = 1 << 10;
 
     public void OnShoot(InputAction.CallbackContext context)
     {
@@ -28,10 +45,10 @@ public class CharInteracts : MonoBehaviour
 
     private void Shoot()
     {
-        if (!justFired /*&& this.GetComponent<CharacterMovement>().IsGrounded*/)
+        if (!justFired && !(ammoCurrent == 0)/*&& this.GetComponent<CharacterMovement>().IsGrounded*/)
         {
-            RaycastHit2D hit = Physics2D.Raycast(gun.transform.position, cross.localPosition, 25f);
-
+            RaycastHit2D hit = Physics2D.Raycast(gun.transform.position, cross.localPosition, 25f, layerMask);
+            shotSnd.Play();
             line.gameObject.SetActive(true);
 
             linepos[0] = gun.transform.position;
@@ -39,16 +56,28 @@ public class CharInteracts : MonoBehaviour
 
             line.SetPositions(linepos);
 
-            if (hit.collider.tag == "Enemy")
+            if (hit.collider.tag == "Enemy" )
             {
-                hit.collider.GetComponent<CrawlerNPC>().TakeDamage(20);
+                if (hit.collider.GetComponent<CrawlerNPC>())
+                {
+                    hit.collider.GetComponent<CrawlerNPC>().TakeDamage(crawlerDamage);
+                }
+                else if (hit.collider.GetComponent<BossInteractive>())
+                {
+                    hit.collider.GetComponent<BossInteractive>().TakeDamage(rocketDamage);
+                }
+            }
+            if (hit.collider.tag == "Rocket")
+            {
+                Destroy(hit.collider.gameObject);
             }
 
             Invoke("HideLine", 0.05f);
 
             // Debug.DrawLine(gun.transform.position, hit.point, Color.blue, 0.05f);
 
-            justFired = true;            
+            justFired = true;
+            ammoCurrent -= 1;
         }
 
         // Debug.Log(hit.collider.gameObject.tag);
@@ -63,6 +92,9 @@ public class CharInteracts : MonoBehaviour
     void Start()
     {
         HideLine();
+
+        //Ammo initialization
+        ammoCurrent = ammoMax;
     }
 
     // Update is called once per frame
@@ -77,18 +109,25 @@ public class CharInteracts : MonoBehaviour
             count = 0;
             justFired = false;
         }
+        if (isReloading && !(ammoCurrent == ammoMax))
+        {
+            Reload();
+            Debug.Log("Reload!");
+        }
+        ammoCounter.text = "Ammo : " + ammoCurrent +"/" + ammoMax;
+
     }
 
-    // private void OnTriggerEnter2D(Collider2D collision)
-    // {
-    //     if(collision.tag == "textLog")
-    //     {
-    //         if(collision.GetComponent<summaryScript>())
-    //         {
-    //         }
-    //     }
 
-    // }
+    public void OnReload(InputAction.CallbackContext context)
+    {
+        isReloading = context.performed;
+    }
+    public void Reload()
+    {
+        ammoCurrent = ammoMax;
+        reloadSnd.Play();
+    }
 
 
 }

@@ -15,20 +15,15 @@ public class HealthBar : MonoBehaviour
 
     void Update()
     {
-        // Debug.Log(instance.Hp);
-        this.GetComponent<Slider>().value = instance.Hp / 100;
-    }
+        if (this.gameObject.name == "Health Bar")
+        {
+            this.GetComponent<Slider>().value = instance.Hp / 100;  // health bar for player
+        }
+        else if (this.gameObject.name == "BossHealth")
+        {
 
-    ////Changes the maximum health, allowing an increase in capacity without messing with the gui.
-    //public void SetMaxHealth(float hp)
-    //{
-    //    slider.maxValue = hp;
-    //    slider.value = hp;
-    //}
-    ////Changes the current health value, moving the gui proportionally.
-    //public void SetHealth(float hp)
-    //{
-    //    slider.value = hp;
-    //}
+        }
+
+    }
 
 }

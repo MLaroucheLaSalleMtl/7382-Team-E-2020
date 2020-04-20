@@ -54,9 +54,17 @@
                     "interactions": ""
                 },
                 {
-                    "name": "WeaponChange",
+                    "name": "Reload",
                     "type": "Button",
-                    "id": "62fe29f8-b38e-4e32-ae5e-805bcdeb3b72",
+                    "id": "8869f2a5-bddb-4b1c-b101-409364a017f0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "FlashLight",
+                    "type": "Button",
+                    "id": "abc1659d-e1db-456e-b61b-1ee7dd9dc6a1",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
@@ -307,80 +315,47 @@
                 },
                 {
                     "name": "",
-                    "id": "f1a968ad-1119-41a3-ba8c-0f354e732784",
-                    "path": "<Mouse>/scroll",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "WeaponChange",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "TwoWeapon",
-                    "id": "703026c9-f1ac-46b9-adb8-36dbc9a808fd",
-                    "path": "1DAxis",
+                    "id": "58936209-a1e2-443d-9f9f-4bc8a5ae328a",
+                    "path": "<Keyboard>/r",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "WeaponChange",
-                    "isComposite": true,
+                    "action": "Reload",
+                    "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "negative",
-                    "id": "1b5a871f-7379-4066-9336-47e4d32b5c49",
-                    "path": "<Keyboard>/1",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "WeaponChange",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "positive",
-                    "id": "9805e6b7-970b-4555-bbf4-477a58a1e5a1",
-                    "path": "<Keyboard>/2",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "WeaponChange",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "Controller",
-                    "id": "747fd52b-ff22-492a-b7c5-925727f10647",
-                    "path": "1DAxis",
+                    "name": "",
+                    "id": "02bd6983-f46d-4ed4-8797-036c413d3b87",
+                    "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "WeaponChange",
-                    "isComposite": true,
+                    "action": "Reload",
+                    "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "negative",
-                    "id": "b18d4f41-7b89-459c-88a0-cbe42a68f980",
-                    "path": "<Gamepad>/dpad/left",
+                    "name": "",
+                    "id": "1d1f54aa-2f97-45ac-8dd1-b4415969fbe3",
+                    "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Gamepad",
-                    "action": "WeaponChange",
+                    "groups": "Keyboard&Mouse",
+                    "action": "FlashLight",
                     "isComposite": false,
-                    "isPartOfComposite": true
+                    "isPartOfComposite": false
                 },
                 {
-                    "name": "positive",
-                    "id": "2c0a822b-0512-429a-b2ae-ae546e0d5bdc",
-                    "path": "<Gamepad>/dpad/right",
+                    "name": "",
+                    "id": "493fa1c3-f6c0-4c48-a4c9-89d8b17aefd6",
+                    "path": "<Gamepad>/dpad/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "WeaponChange",
+                    "action": "FlashLight",
                     "isComposite": false,
-                    "isPartOfComposite": true
+                    "isPartOfComposite": false
                 }
             ]
         },

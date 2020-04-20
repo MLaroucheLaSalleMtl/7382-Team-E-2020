@@ -12,6 +12,9 @@ TagManager:
   - Enemy
   - BlueMap
   - BlueLight
+  - monitor
+  - guardian
+  - Rocket
   layers:
   - Default
   - TransparentFX
@@ -25,7 +28,7 @@ TagManager:
   - frontground
   - PlayerCast
   - Map
-  - 
+  - BossRoomCol
   - 
   - 
   - 

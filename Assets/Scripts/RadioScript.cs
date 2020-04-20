@@ -34,6 +34,12 @@ public class RadioScript : MonoBehaviour
            animator.SetBool("DialogueThree", true);
            Invoke("DestroyObject", 15f);
         }
+        if (col.tag == "Player" && this.gameObject.name == "FourthRadio")
+        {
+
+            animator.SetBool("DialogueFour", true);
+            Invoke("DestroyObject", 8f);
+        }
     }
 
     private void DestroyObject()
