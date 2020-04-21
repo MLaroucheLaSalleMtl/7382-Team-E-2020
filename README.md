@@ -40,9 +40,9 @@ Team Members
 ### Staffs
 
 ```sh
-$ Heechan Choi : Main art and sprites of the project.
+$ Heechan Choi : Main art, Game design of the project.
 $ Aaron Cruz : Main programmer of the project.
-$ Joey Avignon : Main Designer of the project
+$ Joey Avignon : Main Sound Designer of the project
 ```
 
 ### Sources
