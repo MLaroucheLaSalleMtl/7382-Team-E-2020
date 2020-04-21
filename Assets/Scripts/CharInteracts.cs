@@ -12,8 +12,6 @@ public class CharInteracts : MonoBehaviour
     [SerializeField] private LineRenderer line;
     [SerializeField] float fireRate = 0.4f;
 
-    [SerializeField] private int rocketDamage = 15;
-    [SerializeField] private float crawlerDamage = 10f;
 
     //Added ammo counter vairables
     [SerializeField] Text ammoCounter;
@@ -47,7 +45,7 @@ public class CharInteracts : MonoBehaviour
     {
         if (!justFired && !(ammoCurrent == 0)/*&& this.GetComponent<CharacterMovement>().IsGrounded*/)
         {
-            RaycastHit2D hit = Physics2D.Raycast(gun.transform.position, cross.localPosition, 25f, layerMask);
+            RaycastHit2D hit = Physics2D.Raycast(gun.transform.position, cross.localPosition , 25f, layerMask);
             shotSnd.Play();
             line.gameObject.SetActive(true);
 
@@ -60,11 +58,11 @@ public class CharInteracts : MonoBehaviour
             {
                 if (hit.collider.GetComponent<CrawlerNPC>())
                 {
-                    hit.collider.GetComponent<CrawlerNPC>().TakeDamage(crawlerDamage);
+                    hit.collider.GetComponent<CrawlerNPC>().TakeDamage(20);
                 }
                 else if (hit.collider.GetComponent<BossInteractive>())
                 {
-                    hit.collider.GetComponent<BossInteractive>().TakeDamage(rocketDamage);
+                    hit.collider.GetComponent<BossInteractive>().TakeDamage(20);
                 }
             }
             if (hit.collider.tag == "Rocket")

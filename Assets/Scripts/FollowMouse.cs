@@ -20,7 +20,11 @@ public class FollowMouse : MonoBehaviour
 
         if (controlType == "XInputControllerWindows")
         {
-            this.transform.localPosition = context.ReadValue<Vector2>();
+            if (Mathf.Abs(context.ReadValue<Vector2>().x) > 0.1f)
+            {
+                this.transform.localPosition = context.ReadValue<Vector2>();
+            }
+            
         }
         else
         {

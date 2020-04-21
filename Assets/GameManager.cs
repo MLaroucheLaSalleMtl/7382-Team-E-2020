@@ -14,8 +14,7 @@ public class GameManager : MonoBehaviour
     private float hp = 100;
     private float stamina = 100;
     private int amountOfEnemies = 0;
-
-
+    float gameOverTimer = 0;
     public int AmountOfEnemies { get => amountOfEnemies; set => amountOfEnemies = value; }
 
     public float Hp { get => hp; set => hp = value; }
@@ -60,6 +59,16 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (hp <= 0)
+        {
+            player.SetActive(false);
+            gameOverText.SetActive(true);
+            gameOverTimer += Time.deltaTime;
 
+        }
+        if (gameOverTimer > 5)
+        {
+            SceneManager.LoadScene(sceneToLoad.name);
+        }
     }
 }

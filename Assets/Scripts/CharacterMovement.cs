@@ -35,6 +35,9 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float timeForRegen = 3f;
     [SerializeField] private float waitBeforeRun = 5f;
 
+    [SerializeField] private int rocketDamage = 15;
+    [SerializeField] private float crawlerDamage = 10f;
+
     private float currWait = 0;
     private float currTimeForRegen = 0;
     private bool canRegen = false;
@@ -69,13 +72,13 @@ public class CharacterMovement : MonoBehaviour
         //to optimize...
         if (collision.gameObject.tag == "Enemy")
         {
-            instance.DamagePlayer(10);  // only one enemy so one damage only
+            instance.DamagePlayer(crawlerDamage);  // only one enemy so one damage only
             // anim.SetTrigger("Damaged");
             // Fix flinch after demo.
         }
         if (collision.gameObject.tag == "Rocket")
         {
-            instance.DamagePlayer(15);
+            instance.DamagePlayer(rocketDamage);
         }
 
 

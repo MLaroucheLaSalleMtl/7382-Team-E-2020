@@ -45,7 +45,6 @@ public class PlayerControlEnd : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(isGrounded);
 
         if (isGrounded)
         {
