@@ -52,7 +52,7 @@ $ Joey Avignon : Main Sound Designer of the project
 | ------ | ------ |
 | Font | THALEAH FAT FREE PIXEL FONT ( asset store) |
 | Sprites |  |
-| Codes |  |
+| Codes | Astar Pathfinding, https://arongranberg.com/astar/ |
 | Packages |  |
 | sounds |  |
 | Graphic Software | Aseprite, Procreate |
